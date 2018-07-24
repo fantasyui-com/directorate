@@ -1,0 +1,20 @@
+{
+  "name": "directorate",
+  "version": "1.0.0",
+  "description": "Business in a Box Modeling, A Company Object Model that helps you define business requirements prior to implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasyui-com/directorate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasyui-com/directorate/issues"
+  },
+  "homepage": "https://github.com/fantasyui-com/directorate#readme"
+}

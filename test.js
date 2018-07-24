@@ -1,10 +1,4 @@
-# directorate
-Business in a Box Modeling, A Company Object Model that helps you define business requirements prior to implementation.
-
-
-```JavaScript
-
-const Directorate = require('directorate');
+const Directorate = require('.');
 
 const directorate = new Directorate();
 
@@ -31,27 +25,3 @@ members.appendChild(alice);
 members.appendChild(bob);
 
 console.log(directorate.serialize());
-
-
-```
-
-Result
-
-```XML
-<root>
- <lobby>
-  <front-desk>
-   <bell>
-   </bell>
-   <billing>
-    <members>
-     <alice signup="Tue Jul 24 2018 11:12:49 GMT-0400 (Eastern Daylight Time)" black-card="true">
-     </alice>
-     <bob signup="Tue Jul 24 2018 11:12:49 GMT-0400 (Eastern Daylight Time)" black-card="true">
-     </bob>
-    </members>
-   </billing>
-  </front-desk>
- </lobby>
-</root>
-```
