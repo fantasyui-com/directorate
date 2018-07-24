@@ -15,7 +15,7 @@ class Element {
   }
 
   setAttribute(name, value){
-    if(name === 'id') this.document.childrenById.set(value, element);
+    if(name === 'id') this.document.childrenById.set(value, this);
     return this.attributes.set(name, value);
   }
   getAttribute(name, value){ return this.attributes.get(name); }

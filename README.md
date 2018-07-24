@@ -1,6 +1,8 @@
 # directorate
 Business in a Box Modeling, A Company Object Model that helps you define business requirements prior to implementation.
 
+Like prd/brd it is a pre/requisite mapping language used for mapping companies/applications prior to funding phase.
+
 
 ```JavaScript
 
@@ -55,3 +57,34 @@ Result
  </lobby>
 </root>
 ```
+
+```XML
+
+<root>
+ <leopard>
+  <application>
+   <menu>
+    <menu-category label="File">
+    </menu-category>
+    <menu-category label="Filters">
+     <menu-item id="blur" label="Blur">
+     </menu-item>
+    </menu-category>
+   </menu>
+  </application>
+ </leopard>
+</root>
+
+```
+
+## Sister Projects (Candidate)
+
+### Basics
+Directorate Serializer (for tree serialization)
+
+### Modeling
+Directorate Query (for simplifying node building)
+
+### Manipulation
+Directorate Hydration (for reading serialized trees (transformation purposes, etc.))
+Directorate Transformations (for extracting project requirements)
