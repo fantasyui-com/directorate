@@ -1,6 +1,6 @@
 {
   "name": "directorate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Business in a Box Modeling, A Company Object Model that helps you define business requirements prior to implementation.",
   "main": "index.js",
   "scripts": {
