@@ -9,23 +9,23 @@ const directorate = new Directorate();
 
 
 
-const leopard = directorate.createElement('leopard');
+const leopard = directorate.createElement('Leopard');
 directorate.root.appendChild(leopard);
 
-const application = directorate.createElement('application');
+const application = directorate.createElement('Application');
 leopard.appendChild(application);
 
-const menu = directorate.createElement('menu');
+const menu = directorate.createElement('Menu');
 application.appendChild(menu);
 
-const fileMenu = directorate.createElement('menu-category');
+const fileMenu = directorate.createElement('MenuCategory');
 fileMenu.setAttribute('label', 'File')
-const filtersMenu = directorate.createElement('menu-category');
+const filtersMenu = directorate.createElement('MenuCategory');
 filtersMenu.setAttribute('label', 'Filters')
 menu.appendChild(fileMenu);
 menu.appendChild(filtersMenu);
 
-const blurFilter = directorate.createElement('menu-item');
+const blurFilter = directorate.createElement('MenuItem');
 blurFilter.setAttribute('id', 'blur');
 blurFilter.setAttribute('label', 'Blur');
 

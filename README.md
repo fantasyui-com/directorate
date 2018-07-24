@@ -83,6 +83,7 @@ Result
 Directorate Serializer (for tree serialization)
 
 ### Modeling
+Directorate Selector (Selector engine for Directorate Query project)
 Directorate Query (for simplifying node building)
 
 ### Manipulation
